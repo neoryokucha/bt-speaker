@@ -7,7 +7,7 @@ set -e
 
 echo "Installing dependencies..."
 apt update
-apt --yes --allow install git bluez python3 python-gi python3-cffi python3-dbus python3-alsaaudio python-configparser sound-theme-freedesktop vorbis-tools
+apt --yes install git bluez python3 python-gi python3-cffi python3-dbus python3-alsaaudio python-configparser sound-theme-freedesktop vorbis-tools
 echo "done."
 
 # Add btspeaker user if not exist already
